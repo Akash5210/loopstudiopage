@@ -1,0 +1,92 @@
+.content{
+    margin: 80px;
+}
+.content .part1{
+    background-image: url('../Images/desktop/image-interactive.jpg');
+    width: 750px;
+    height: 440px;
+    background-repeat: no-repeat;
+}
+.content .part1 div{
+    background-color: white;
+    width: 470px;
+    height: 283px;
+    position: relative;
+    top: 157px;
+    left: 646px;
+    padding: 72px 0 0px 72px;
+}
+.our-creation h3{
+    display: inline-block;
+}
+#see-all{
+    border-radius: 0;
+    font-size: 10px;
+    float: right;
+    font-weight: 650;
+    letter-spacing: 1.5px;
+}
+.creationCard{
+    margin: 30px 40px 30px 0;
+    width: 240px;
+    height: 415px;
+    
+}
+.creationCard h4{
+    position: relative;
+    bottom: 84px;
+    left: 42px;
+    font-weight: 360;
+    width: 110px;
+}
+.creationCard h4:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:480px){
+    .part1{
+        width: 431px !important;
+        height: 281px !important;
+        background-position: center !important;
+        margin: -24px -57px !important;
+    }
+    .part1 div{
+        height: 221px !important;
+        position: absolute !important;
+        top: 770px !important;
+        left: 70px !important;
+        background-color: white !important;
+        padding: 0 !important;
+        text-align: center;
+        width: 333px !important;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .part1 h3{
+        font-size: xx-large;
+        font-weight: 350;
+        letter-spacing: 1.5px;
+    }
+    .our-creation h3{
+        display: inline-block;
+        position: relative;
+        left: 66px;
+    }
+    .part2{
+        margin-top: 350px !important;
+        margin-bottom: 140px !important;
+    }
+    #see-all{
+        position: relative;
+        top: 64.8rem;
+        left: -106px;
+    }
+    .creationCard{
+        height: 100px;
+        margin: 20px 0 auto 0;
+    }
+    .creationCard img{
+        object-fit:cover;
+        width: 330px;
+        height: 110px;
+    }
+}

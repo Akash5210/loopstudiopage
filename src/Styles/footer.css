@@ -1,0 +1,49 @@
+.footer-link{
+    display: inline-block;
+    
+}
+.footer-link span{
+    font-size: 13px;
+}
+.footer > span{
+    float: right;
+    font-size: 13px;
+    color: grey;
+    margin-right: 40px;
+}
+.social-icons{
+    margin-left: 124px;
+}
+@media only screen and (max-width:480px){
+    .footer-brand{
+        text-align: center;
+        margin: 0;
+    }
+    .footer-link {
+        display: block;
+        text-align: center;
+        margin-top: -19px;
+        margin-bottom: 63px;
+    }
+    
+    .footer-link span{
+        display: block;
+        margin: 5px 0 !important;
+    }
+    .footer > span{
+        float: none;
+        margin: 0;
+        display: block;
+        text-align: center;
+        font-size: 10px;
+        color:rgb(87, 85, 85);
+    }
+    .social-icons{
+        position: relative;
+        bottom: -153px;
+        left: 20px;
+    }
+    .attribution{
+        padding-bottom: 26px;
+    }
+}

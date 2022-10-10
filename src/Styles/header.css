@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-image: url("../Images/desktop/image-hero.jpg");
+    height: 400px;
+}
+.navbar-nav{
+    margin-left: 67%;
+}
+.header-content{
+    margin-top: 59px;
+    margin-left: 60px;
+    width: 300px;
+}
+.header-content h1{
+    font-weight: 300;
+}
+@media screen and (max-width: 480px){
+    #navbarSupportedContent{
+        position: relative;
+        margin-bottom: -80px;
+    }
+}
